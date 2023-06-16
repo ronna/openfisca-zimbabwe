@@ -9,7 +9,7 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()  # pylint: disable=W1514
 
 setup(
-    name = "OpenFisca-Country-Template",
+    name = "OpenFisca-Zimbabwe",
     version = "6.0.1",
     author = "OpenFisca Team",
     author_email = "contact@openfisca.org",
@@ -23,7 +23,7 @@ setup(
         "Programming Language :: Python :: 3.11",
         "Topic :: Scientific/Engineering :: Information Analysis",
         ],
-    description = "OpenFisca tax and benefit system for Country-Template",
+    description = "OpenFisca tax and benefit system for Zimbabwe",
     long_description=long_description,
     long_description_content_type="text/markdown",
     keywords = "benefit microsimulation social tax",
